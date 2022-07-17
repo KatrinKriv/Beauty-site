@@ -1,0 +1,29 @@
+.line{
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.text16{
+    font: 400 1rem "Roboto";
+    font-style: normal;
+    color: #000000;
+}
+
+.menu_items{
+    display: inline;
+    margin: 0;
+
+}
+
+ul.menu_items li{
+    display: inline;
+}
+
+.menu_item{
+    padding-right: 36px;
+
+}
+
+.menu{
+    text-align: center;
+    margin-top: 25px;
+}
