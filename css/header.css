@@ -50,12 +50,10 @@ a{
     font: 400 0.875rem "Roboto";
     font-style: normal;
     color: #000000;
-
+    text-align: center;
 }
 
-.contact_information_orientation{
-    float: right;
-}
+
 .button
 {
     float: left;
@@ -67,8 +65,8 @@ a{
 }
 
 .contact_information>img{
-    width: 258px;
-    height: 80px;
+    max-width: 258px;
+    max-height: 80px;
 
 }
 .logo {

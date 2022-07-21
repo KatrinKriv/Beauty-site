@@ -3,7 +3,7 @@
     background-image: url("../img/Rectangle 2.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 604px;
+    background-position: center center;
     width: 100%;
 
 }
@@ -13,6 +13,7 @@
     border: 2px solid #FFFFFF;
     border-radius: 40px;
     padding: 9px 48px;
+    margin-bottom: 250px;
     font: 400 0.875rem "Roboto";
 
 }
@@ -37,9 +38,7 @@ h1{
     padding-bottom: 31px;
 }
 
-.banner_elements{
-    margin-bottom: 193px;
-}
+
 
 .button_3{
     background: #F13C6E;
