@@ -20,6 +20,7 @@ ul.menu_items li{
 
 .menu_item{
     padding-right: 36px;
+    display: inline-block;
 
 }
 

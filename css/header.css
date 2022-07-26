@@ -12,7 +12,7 @@ header{
 }
 
 .header_nav_item{
-    display: inline;
+    display: inline-block;
     font: 400 0.875rem "Roboto";
     font-style: normal;
     margin-right: 30px;

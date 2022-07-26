@@ -3,6 +3,7 @@
 @import "header.css";
 @import "menu.css";
 @import "banner.css";
+@import "adaptation.css";
 *{
     box-sizing: border-box;
 }
@@ -130,9 +131,11 @@ h4{
 .col_2 i{
     color: rgba(255, 255, 255, 0.4);
     font-size: 7.75rem;
-    margin-right: 45px;
-    margin-left: 20px;
-    max-width: 124px;
+    margin: auto 1px;
+    display: block;
+    float: right;
+    max-width: 155px;
+
 }
 
 input{
@@ -470,60 +473,7 @@ h5{
     animation-direction: normal, alternate
 }
 
-@media (max-width: 1366px){
-    .col-m-4{
-        width: 33%;
-        flex-wrap: wrap;
-    }
-}
 
-@media (max-width: 1200px){
-    .col-s-6{
-        width: 50%;
-        flex-wrap: wrap;
-    }
-}
-@media (max-width: 768px){
-    .col-xs-12{
-        width: 100%;
-        flex-wrap: wrap;
-    }
-}
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-    .col-xs-12{
-        width: 100%;
-        flex-wrap: wrap;
-    }
-}
-
-@media (max-width: 1366px){
-    .popular_categories-col-s{
-        width: 100%;
-        text-align: center;
-    }
-}
-
-@media (max-width: 1366px){
-    .logo_sm_s{
-        width: 100%;
-        text-align: center;
-    }
-}
-
-@media (max-width: 1366px){
-    .contact_inf_col_s{
-        width: 100%;
-        text-align: center;
-        display: block;
-    }
-}
-
-@media only screen and (max-width : 760px) {
-    .col-2-xs-12{
-        width: 100%;
-        flex-wrap: wrap;
-    }
-}
 
 .contacts_inf{
     display: inline-block;
@@ -537,3 +487,4 @@ h5{
 .contact_information_orientation{
     float: right;
 }
+
