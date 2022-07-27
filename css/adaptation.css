@@ -1,24 +1,24 @@
 @media (max-width: 1366px){
-    .col-m-4{
+    body .col-m-4{
         width: 33%;
         flex-wrap: wrap;
     }
 }
 
 @media (max-width: 1200px){
-    .col-s-6{
+    body .col-s-6{
         width: 50%;
         flex-wrap: wrap;
     }
 }
 @media (max-width: 768px){
-    .col-xs-12{
+    body .col-xs-12{
         width: 100%;
         flex-wrap: wrap;
     }
 }
 @media only screen and (min-width : 320px) and (max-width : 480px) {
-    .col-xs-12{
+    body .col-xs-12{
         width: 100%;
         flex-wrap: wrap;
     }
@@ -38,28 +38,22 @@
     }
 }
 
-@media (max-width: 1366px){
-    .contact_inf_col_s{
-        width: 100%;
-        text-align: center;
-        display: block;
-    }
-}
+
 
 @media only screen and (max-width : 760px) {
-    .col-2-xs-12{
+    body .col-2-xs-12{
         width: 100%;
         flex-wrap: wrap;
     }
 }
 @media only screen and (max-width : 930px) {
-    .col_2 i{
+     body .col_2 i{
         font-size: 2.75rem;
 
     }
 }
 @media only screen and (max-width : 760px) {
-    .col_2 i{
+     body .col_2 i{
         font-size: 6.75rem;
         padding-right: 10px;
     }
@@ -120,6 +114,7 @@
         display: block;
         margin: 0 auto;
         float: none;
+
     }
 
     body .contact_phone{
@@ -132,6 +127,92 @@
 
 @media only screen and (max-width: 660px) {
     body .contact_information_orientation{
+        float: none;
+        display: block;
+        margin: 0 auto 10px;
+    }
+}
+
+@media (max-width: 666px){
+    body .contact_inf_col_s .sircle .pad_centre_you {
+        display: block;
+        margin: 0 auto;
+    }
+    body .logo_sm{
+        display: block;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 1300px){
+    body .footer_text{
+        float: none;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 0;
+    }
+     body .footer_policy{
+        float: none;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width : 930px) {
+    .col_2 i{
+        font-size: 2.75rem;
+
+    }
+}
+@media only screen and (max-width : 760px) {
+    .col_2 i{
+        font-size: 6.75rem;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .menu_item{
+        display: block;
+        padding-bottom: 10px;
+        border: 1px dotted #F13C6E;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header_nav_item{
+        display: block;
+        padding-bottom: 10px;
+
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .button {
+        display: block;
+        margin: 0 auto;
+        float: none;
+
+    }
+
+    .contact_phone{
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .contact_information_orientation{
         float: none;
     }
 }
